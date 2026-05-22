@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const panjang = parseFloat(prompt('Masukkan panjang : '));
+        const lebar = parseFloat(prompt('Masukkan lebar : '));
+
+        function hitungLuasPersegPanjang() {
+            const luas = panjang * lebar;
+            return luas;
+        }
+
+        hitungLuasPersegPanjang();
+
+        function hitungKelilingPersegPanjang() {
+            const keliling = 2 * (panjang + lebar);
+            return keliling;
+        }
+
+        hitungKelilingPersegPanjang();
+
+        console.log(`Luas persegi panjang : ${hitungLuasPersegPanjang()}`);
+        console.log(`Keliling persegi panjang : ${hitungKelilingPersegPanjang()}`);
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function loopBintang()
+            {
+            let jumlahBintang = 40;
+            let barisBintang = '';
+            let i = 0;
+
+            while (i < jumlahBintang) {
+                barisBintang += '*';
+                i++;
+            }
+
+            console.log(barisBintang);
+            document.write(`${barisBintang} <br>`);
+
+            }
+            loopBintang();
+
+            console.log('UJIAN EJI PUTRA');
+            document.write('UJIAN EJI PUTRA <br>')
+
+            function loopDash()
+            {
+                let jumlahDash = 40;
+                let barisDash = '';
+                for (let i = 0; i < jumlahDash; i++) {
+                    barisDash += '-';
+                }
+                console.log(barisDash);
+                document.write(barisDash)
+            }
+            loopDash();
+    </script>
+</body>
+</html>
